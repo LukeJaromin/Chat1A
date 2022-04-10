@@ -1,0 +1,15 @@
+package com.jaromin.message;
+
+public enum Action {
+    ADD_USER_TO_CHANNEL,
+    CREATE_CHANNEL,
+    LEAVE_CHANNEL,
+    PRIVATE_MESSAGE,
+    CHANNEL_MESSAGE,
+    PUBLIC_MESSAGE,
+    SEND_FILE,
+    DOWNLOAD_FILE,
+    HISTORY,
+    HISTORY_PRIVATE,
+    HISTORY_CHANNEL
+}
